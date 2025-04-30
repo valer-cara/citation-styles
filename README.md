@@ -3,10 +3,9 @@
 Formatul de bibliografie si citatii pentru lucrarile din Sesiunea de Comunicari Stiintifice al AII este derivat din stilul APA (American Psychological Association), cu numerotare stil IEEE.
 
 In modelul AII formatul este:
-[[./screenshot-exemplu-poli.png]]
+![AII format](./screenshot-exemplu-poli.png)
 
-Stilul din `./politehnica-bucuresti-apa-derived.csl` arata asa:
-[[./screenshot-exemplu-zotero-preview.png]]
+Stilul din `./politehnica-bucuresti-apa-derived.csl` arata asa: ![custom AII style](./screenshot-exemplu-zotero-preview.png)
 
 Stilurile sunt specificate utilizand CSL - Citation Style Language.
 
