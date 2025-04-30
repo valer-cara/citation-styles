@@ -1,14 +1,20 @@
 # Citation styles
 
-Formatul de bibliografie si citatii pentru lucrarile din Sesiunea de Comunicari Stiintifice al AII este derivat din stilul APA (American Psychological Association).
+Formatul de bibliografie si citatii pentru lucrarile din Sesiunea de Comunicari Stiintifice al AII este derivat din stilul APA (American Psychological Association), cu numerotare stil IEEE.
 
-Stilurile sunt specificate utilizand CSL - citation style language.
+In modelul AII formatul este:
+[[./screenshot-exemplu-poli.png]]
 
-Am creat un .csl care sa reflecte cerintele de formatare date de AII.
+Stilul din `./politehnica-bucuresti-apa-derived.csl` arata asa:
+[[./screenshot-exemplu-zotero-preview.png]]
+
+Stilurile sunt specificate utilizand CSL - Citation Style Language.
+
+Am creat un `.csl` care sa reflecte cerintele de formatare date de AII.
 
 Sursele jurnalelor cunoscute sunt disponibile in format CSL aici: https://github.com/citation-style-language/.
 
-Din apa.csl am derivat politehnica-bucuresti-apa.csl, care folosete ca referinta formatul din ieee.csl "[1]" si bibliografia in stilul APA, la care am adaugat indexul ca "1. ".
+Din `apa.csl` am derivat `politehnica-bucuresti-apa.csl`, care folosete ca referinta formatul din ieee.csl `[1]` si bibliografia in stilul APA, la care am adaugat indexul ca `1. `.
 
 
 ### despre csl

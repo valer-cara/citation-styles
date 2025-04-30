@@ -2129,6 +2129,7 @@
         </if>
         <else>
           <group delimiter=" ">
+            <text variable="citation-number" suffix="."/>
             <group delimiter=". " suffix=".">
               <text macro="author-bib"/>
               <text macro="date-bib"/>
