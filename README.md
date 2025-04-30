@@ -29,3 +29,8 @@ Folosesc [Zotero](https://zotero.com), unde stochez PDF-uri, site-uri pe care vr
 Zotero are pluginuri pentru LibreOffice, google docs, etc.. si permite selectarea stilului de citatie precum si cautarea si inserarea citatiilor din bibliografia locala. Recomand!
 
 Tips despre cum sa editezi/folosesti stiluri pentru bibliografie: https://www.zotero.org/support/dev/citation_styles/style_editing_step-by-step
+
+# Dictionar Roman pentru Libre Office
+Am inclus in repo si un dictionar roman descarcat de la https://rospell.wordpress.com/download/. Libre office nu include limba romana in instalarea default, dar e foarte util sa ai spell checking.
+
+Ca sa instalezi dictionarul in LibreOffice Writer, mergi la Tools -> Extensions (Alt-Ctrl-E), apasa "Add" si selecteaza fisierul `dict-ro.1.7.oxt` din acest repo.
