@@ -30,6 +30,11 @@ Zotero are pluginuri pentru LibreOffice, google docs, etc.. si permite selectare
 
 Tips despre cum sa editezi/folosesti stiluri pentru bibliografie: https://www.zotero.org/support/dev/citation_styles/style_editing_step-by-step
 
+## Erori in LibreOffice la update-ul bibliografiei?
+**TL;DR: tine toate citatiile in paragrafe simple in textul principal. Evita sa adaugi citatii "[1]" in text care se afla in Tabele, Caption-uri ale imaginilor, etc..**
+
+Integrarea [zotero-libreoffice](https://github.com/zotero/zotero-libreoffice-integration/blob/39a4b0586c110d9ed42561295bc36e4e0383c793/build/source/org/zotero/integration/ooo/comp/TextTableManager.java#L64) merge ok in general, dar daca o surprinzi cu citatii in afara locurilor tipice (paragrafe din textul principal), poate da erori care suna cam "LibreOffice could not communicate with Zotero. [...] Would you like to troubleshoot?".
+
 # Dictionar Roman pentru Libre Office
 Am inclus in repo si un dictionar roman descarcat de la https://rospell.wordpress.com/download/. Libre office nu include limba romana in instalarea default, dar e foarte util sa ai spell checking.
 
